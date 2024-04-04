@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -38,7 +39,7 @@ header {
 .reseaux {
     display: flex;
     justify-content: center;
-    align-items: center;
+
     flex-direction: row;
 }
 
@@ -141,10 +142,14 @@ nav ul li:last-child a {
 
 }
 
+.header-body .text {
+    margin-left: 50px;
+}
+
 .header-body .text h1 {
-    font-size: 20px;
+    font-size: 40px;
     color: #ffff;
-    line-height: 1em;
+    line-height: 1.5em;
     margin-bottom: 55px;
 }
 
@@ -160,4 +165,8 @@ nav ul li:last-child a {
 .image img {
     margin-right: 100px;
     padding-bottom: 80px;
+}
+
+.competences {
+    color: black;
 }
